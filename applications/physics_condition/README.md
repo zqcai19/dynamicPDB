@@ -42,7 +42,7 @@
 
 ## 🔧️ Framework
 
-![framework](./asserts/physics_frame.png)
+![framework](./assets/network.png)
 
 ## ⚙️ Installation
 
