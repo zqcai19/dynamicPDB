@@ -42,9 +42,9 @@
   </tr>
   <tr>
     <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/3A1G_B.gif"><img src="./assets/gif/trajectory/3A1G_B.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6E7E_A.mp4"><img src="./assets/gif/trajectory/6E7E_A.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6H49_A.mp4"><img src="./assets/gif/trajectory/6H49_A.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6IAH_A.mp4"><img src="./assets/gif/trajectory/6IAH_A.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6E7E_A.gif"><img src="./assets/gif/trajectory/6E7E_A.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6H49_A.gif"><img src="./assets/gif/trajectory/6H49_A.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6IAH_A.gif"><img src="./assets/gif/trajectory/6IAH_A.gif"></a></td>
   </tr>
   <tr>
     <td style="text-align: center"><b>6JV8_A</b></td>
@@ -53,10 +53,10 @@
     <td style="text-align: center"><b>7A66_B</b></td>
   </tr>
   <tr>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6JV8_A.mp4"><img src="./assets/gif/trajectory/6JV8_A.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6LUS_A.mp4"><img src="./assets/gif/trajectory/6LUS_A.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6Q9C_A.mp4"><img src="./assets/gif/trajectory/6Q9C_A.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/7A66_B.mp4"><img src="./assets/gif/trajectory/7A66_B.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6JV8_A.gif"><img src="./assets/gif/trajectory/6JV8_A.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6LUS_A.gif"><img src="./assets/gif/trajectory/6LUS_A.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/6Q9C_A.gif"><img src="./assets/gif/trajectory/6Q9C_A.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/trajectory/7A66_B.gif"><img src="./assets/gif/trajectory/7A66_B.gif"></a></td>
   </tr>
 </table>
 
@@ -71,17 +71,17 @@
   </tr>
   <tr>
     <td style="text-align: center">Prediction</td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/4UE8_B.mp4"><img src="./assets/gif/short-term/VS_GT/4UE8_B.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6D7Y_A.mp4"><img src="./assets/gif/short-term/VS_GT/6D7Y_A.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6GUS_A.mp4"><img src="./assets/gif/short-term/VS_GT/6GUS_A.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6J56_A.mp4"><img src="./assets/gif/short-term/VS_GT/6J56_A.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/4UE8_B.gif"><img src="./assets/gif/short-term/VS_GT/4UE8_B.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6D7Y_A.gif"><img src="./assets/gif/short-term/VS_GT/6D7Y_A.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6GUS_A.gif"><img src="./assets/gif/short-term/VS_GT/6GUS_A.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6J56_A.gif"><img src="./assets/gif/short-term/VS_GT/6J56_A.gif"></a></td>
   </tr>
   <tr>
     <td style="text-align: center">GT</td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/4UE8_B_GT.mp4"><img src="./assets/gif/short-term/VS_GT/4UE8_B_GT.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6D7Y_A_GT.mp4"><img src="./assets/gif/short-term/VS_GT/6D7Y_A_GT.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6GUS_A_GT.mp4"><img src="./assets/gif/short-term/VS_GT/6GUS_A_GT.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6J56_A_GT.mp4"><img src="./assets/gif/short-term/VS_GT/6J56_A_GT.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/4UE8_B_GT.gif"><img src="./assets/gif/short-term/VS_GT/4UE8_B_GT.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6D7Y_A_GT.gif"><img src="./assets/gif/short-term/VS_GT/6D7Y_A_GT.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6GUS_A_GT.gif"><img src="./assets/gif/short-term/VS_GT/6GUS_A_GT.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/short-term/VS_GT/6J56_A_GT.gif"><img src="./assets/gif/short-term/VS_GT/6J56_A_GT.gif"></a></td>
 
   </tr>
 </table>
@@ -92,21 +92,21 @@
     <tr>
       <th class="center" colspan="5" style="text-align:center;">6Q9C_A</th>
     </tr>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_99.mp4"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_99.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_10.mp4"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_10.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_2.mp4"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_2.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_1.mp4"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_1.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_0.mp4"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_0.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_99.gif"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_99.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_10.gif"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_10.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_2.gif"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_2.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_1.gif"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_1.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_0.gif"><img src="./assets/gif/resverse-diff/6Q9C_A_TRAJ_FRAME_0.gif"></a></td>
   </tr>
 
   <tr>
       <th class="center" colspan="5" style="text-align:center;">7A66_B</th>
     </tr>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_99.mp4"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_99.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_10.mp4"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_10.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_2.mp4"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_2.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_1.mp4"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_1.gif"></a></td>
-    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_0.mp4"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_0.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_99.gif"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_99.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_10.gif"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_10.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_2.gif"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_2.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_1.gif"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_1.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_0.gif"><img src="./assets/gif/resverse-diff/7A66_B_TRAJ_FRAME_0.gif"></a></td>
   </tr>
 </table>
 
