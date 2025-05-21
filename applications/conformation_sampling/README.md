@@ -128,7 +128,7 @@ bash run_eval2.sh
 
 ### 🔥 Training
 
-Follow [Data Preparation](#Data-Preparation) to get the training data ready, and start training with the following command:
+Follow [Data Preparation](#-data-preparation) to get the training data ready, and start training with the following command:
 ```shell
 bash run_train2.sh
 ```
