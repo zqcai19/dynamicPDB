@@ -7,7 +7,7 @@ name=train_data_frame${n_frame}_motion${n_motion}_step${sample_step}
 train_step=95000
 
 # # frame 16
-model_path=./applications/4d_diffusion/model_weights.pth
+model_path=./applications/4d_diffusion/frame16_step_95000.pth
 extrapolation_time=3  # time for extrapolation/extension
 eval_mode=1  # eval mode :  0 for one step; 1 for extension; 2 for batch evaluation
 noise_scale=1.0
