@@ -67,7 +67,7 @@ def do_job(name):
             
     
     pdb_feats['all_atom_positions'] = np.stack(positions_stacked)
-    np.savez(os.path.join(args.outdir,f"/{name}.npz"), **pdb_feats)
+    np.savez(os.path.join(args.outdir,f"{name}.npz"), **pdb_feats)
     os.unlink(temp_path)
     
 main()

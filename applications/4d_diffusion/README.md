@@ -132,15 +132,16 @@ pip install -r requirements.txt
 
 Before testing or training your cases, please ensure that the working directory is set in `dynamicPDB`:
 
-1. [Data Preparation](#Data-Preparation).
-2. [Inference](#Inference).
-3. [Training](#Training).
+1. [Data Preparation](#-data-preparation).
+2. [Inference](#-inference).
+3. [Training](#-training).
 
 
 ### 📥 Data Preparation
 ####  Download and Preprocess datasets
-- Download the ATLAS MD trajectory dataset. We provide a [data list](./test_data.csv) as an example.
+- Download the ATLAS MD trajectory dataset. We provide a [data list](./test_data.csv) as an example. Before downloading the dataset, ensure that `unzip` has been pre-installed.
   ```bash
+  conda install -c conda-forge unzip
   bash src/toolbox/download_atlas.sh
   ```
 
@@ -150,19 +151,15 @@ Before testing or training your cases, please ensure that the working directory 
   ```
 
 ####  Extract Sequence Embeddings
-- Download the OmegaFold weights and install the modified OmegaFold repository.
+- Download the [OmegaFold weights](https://helixon.s3.amazonaws.com/release1.pt) and place `release1.pt` file in the `dynamicPDB` directory. 
+- Install the modified OmegaFold repository.
   ```bash
-  wget https://helixon.s3.amazonaws.com/release1.pt
   git clone https://github.com/bjing2016/OmegaFold
   pip install --no-deps -e OmegaFold
   ```
 - Run OmegaFold to make the embeddings:
   ```bash
   python src/toolbox/processing_atlas/extract_embedding.py --reference_only --out_dir_root dataset/embeddings --lm_weights_path release1.pt --data_csv_path applications/4d_diffusion/test_data.csv
-  ```
-  You can also set `num_workers` and `worker_id` to enable parallelized processing.
-  ```bash
-  CUDA_VISIBLE_DEVICES=$i python src/toolbox/processing_atlas/extract_embedding.py --reference_only --out_dir_root dataset/embeddings --num_workers 8 --worker_id $i &
   ```
 
 - These datasets should be organized as follows:
@@ -199,7 +196,7 @@ Before testing or training your cases, please ensure that the working directory 
   python src/toolbox/processing_atlas/merge_csv.py --csv applications/4d_diffusion/test_data.csv --atlas_dir dataset/atlas --save_path applications/4d_diffusion/merged.csv --processed_npz dataset/processed_npz --embeddings dataset/embeddings
   ```
 
-  The merged `.csv` file will be formed as:
+  The merged `.csv` file (in `applications/4d_diffusion` directory) will be formed as:
   |name|seqres|atlas_npz|embed_path|seq_len|pdb_path|
   |----|----|----|----|----|----|
   |3a1g_B|GGSMERIK...|.npz|.npz|40|.pdb|
@@ -207,7 +204,7 @@ Before testing or training your cases, please ensure that the working directory 
 
 ### 🎮 Inference
 
-Run the `scripts/run_eval_extrapolation.sh` and `scripts/run_eval_visual.sh` as follows:
+Download the model weights `frame16_step_95000.pth` through the [link](https://huggingface.co/fudan-generative-ai/dynamicPDB/tree/main/OmegaFold) and place in the `applications/4d_diffusion` directory.
 
 1. Generate Trajectory
 
@@ -241,7 +238,7 @@ This will generate:
   3. {pdb_name}_first.pdb     # reference pdb file
   4. {pdb_name}_first_motion.pdb  # reference and motion pdb file
   ```
-
+<!--
 3. Evaluation
 
 To get the evaluation metric, run the following command:
@@ -257,10 +254,11 @@ You can visualize these generated `.pdb` files  with [PyMol](https://pymol.org/)
 
 To get the statistics, run:
 ```bash
-python applications/4d_diffusion/print_metric.py --metric_path [metric save path]
+python applications/4d_diffusion/print_metric.py --metric_path [PKL save path]
 ```
-
-4. For more options:
+where `metric_path` is the directory containing `{pdb_name}_*.pkl` files.
+-->
+3. For more options:
 
 ```
 option:
@@ -281,7 +279,7 @@ option:
 
 ### 🔥 Training
 
-Follow [Data Preparation](#Data-Preparation) to get training data ready, and update the data `.csv` path in configuration `YAML` files or change it in the training scripts. Start training with the following command:
+Follow [Data Preparation](#-data-preparation) to get training data ready, and update the data `.csv` path in the training script. Start training with the following command:
 
 ```bash
 bash applications/4d_diffusion/scripts/run_train.sh
