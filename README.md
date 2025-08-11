@@ -64,13 +64,9 @@ In addition, the following data are stored during the MD simulation:
 | `{protein_id}_T.dcd` | DCD format for trajectory coordinates |
 | `{protein_id}_state_npt1000000.0.xml` | Status file for MD prolongation |
 
-## Data Availability Notice
-
-Thank you for your interest and support in our dataset. Due to the immense size of the full simulation data and storage limitations, we have decided to provide the 100ns simulation data for all proteins for online download, with detailed usage instructions provided below ([Download Dataset](#download-dataset)). For researchers who require the 1µs simulation data for specific proteins, please fill out an agreement to the [dynamicPDB Terms of Use](assets/dynamicPDB_Terms_of_Use.pdf), using your institutional email addresses, and send it to us at caizhiqiang@sais.com.cn, along with the PDB IDs. We will provide the data individually. The full list of PDB IDs can be downloaded [here](assets/PDB_ID.csv).
-
 ## Download Dataset
 
-You can easily get dynamic PDB dataset from our [ModelScope repo](https://www.modelscope.cn/datasets/fudan-generative-vision/dynamicPDB/).
+You can easily get dynamic PDB dataset from our ModelScope repo ([100 ns](https://www.modelscope.cn/datasets/fudan-generative-vision/dynamicPDB/) or [the complete](https://modelscope.cn/datasets/fudan-generative-vision/dynamicPDB_complete) version). These datasets are stored in compressed file format, and their usage is shown below. We also provide a ready-to-use [lightweight](https://www.modelscope.cn/datasets/fudan-generative-vision/dynamicPDB_1ns_interval) version, which is a downsampled variant of the 100 ns dataset with a 1 ns frame interval.
 
 1. Make sure you have Git LFS installed:
 ```shell
